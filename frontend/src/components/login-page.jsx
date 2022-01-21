@@ -69,7 +69,7 @@ export default function Login(props) {
         }).then((res) => {
             if (res.data.success) {
                 // write token to storage
-                setInStorage('not_imdb_roynulrohan', {
+                setInStorage('not_imdb_nidhi', {
                     token: res.data.token,
                 });
                 setLoading(false);
@@ -100,7 +100,7 @@ export default function Login(props) {
         }).then((res) => {
             if (res.data.success) {
                 // write token to storage
-                setInStorage('not_imdb_roynulrohan', {
+                setInStorage('not_imdb_nidhi', {
                     token: res.data.token,
                 });
                 setLoading(false);
