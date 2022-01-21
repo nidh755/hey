@@ -23,7 +23,7 @@ export default function Nav() {
     useEffect(() => {
         // verifies current user on mount
         // in nav since nav is in every page
-        const obj = getFromStorage('not_imdb_roynulrohan');
+        const obj = getFromStorage('not_imdb_nidhi');
 
         if (obj && obj.token) {
             const { token } = obj;
@@ -46,7 +46,7 @@ export default function Nav() {
 
     // logout request
     function logout() {
-        const obj = getFromStorage('not_imdb_roynulrohan');
+        const obj = getFromStorage('not_imdb_nidhi');
 
         if (obj && obj.token) {
             const { token } = obj;
